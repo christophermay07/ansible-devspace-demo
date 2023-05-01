@@ -1,7 +1,7 @@
-Role Name
+test_role
 =========
 
-A brief description of the role goes here.
+A simple skeleton for using molecule against the dev spaces container itself with a local connection. This is not recommended for most ansible testing. It could be used as a basic test for automation that only leverages API calls and does not modify the system executing the Ansible.
 
 Requirements
 ------------
