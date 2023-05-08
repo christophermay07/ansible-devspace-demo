@@ -26,4 +26,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: quay.io/${{ env.QUAY_REPOSITORY }}/ansible-devspace:latest
+        tags: quay.io/${{ vars.QUAY_REPOSITORY }}/ansible-devspace:latest
