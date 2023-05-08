@@ -7,6 +7,7 @@ on:
 jobs:
   build_and_publish:
     runs-on: ubuntu-latest
+    environment: chmay_dev
 
     steps:
     - name: Check out the repo
